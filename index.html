@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Roboto:wght@700&display=swap" rel="stylesheet">
     <title>Nejc Vukovic Profile</title>
 </head>
-<body>
-<header id="top">
-    <h1>Nejc Vukovic</h1>
+<body id="top">
+<header>
     <nav>
-        <ul>
+        <h1>Nejc Vukovic</h1>
+        <menu>
             <li>
                 <a href="#home">Home</a>
             </li>
@@ -25,29 +25,26 @@
             <li>
                 <a href="#contact">Contact</a>
             </li>
-        </ul>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+        </menu>
     </nav>
-    <section id="home">
-        <aside>
-            <img src="images/responsive-layout-profile.png" alt="Profile Photo"/>
-        </aside>
-        <article>
-            <p>
-                Hi! I'm a front-end developer who loves responsive
-                design and css. I recently finished learning front-end
-                web development at Treehouse and am excited to put
-                all my skills to use!
-            </p>
-        </article>
-    </section>
+    <aside id="home">
+        <img src="images/responsive-layout-profile.png" alt="Profile Photo">
+        <p>
+            Hi! I'm a front-end developer who loves responsive
+            design and css. I recently finished learning front-end
+            web development at Treehouse and am excited to put
+            all my skills to use!
+        </p>
+    </aside>
 </header>
 <main>
-    <section id="portfolio">
-        <h2>Portfolio</h2>
+    <h2>Portfolio</h2>
+    <div id="portfolio">
         <article id="marketing-article">
-            <aside>
-                <img src="images/portfolio-1.png" alt="Marketing Page Photo"/>
-            </aside>
+            <img src="images/portfolio-1.png" alt="Marketing Page Photo">
             <h3>Marketing Page</h3>
             <p>
                 This project shows the front page of a
@@ -57,9 +54,7 @@
         </article>
 
         <article>
-            <aside>
-                <img src="images/portfolio-2.png" alt="Search Page Photo"/>
-            </aside>
+            <img src="images/portfolio-2.png" alt="Search Page Photo">
             <h3>Search Page</h3>
             <p>
                 This project searches through a specific
@@ -69,11 +64,8 @@
         </article>
 
         <article>
-            <aside>
-                <img src="images/portfolio-3.png" alt="Travel App Photo"/>
-            </aside>
+            <img src="images/portfolio-3.png" alt="Travel App Photo">
             <h3>Travel App</h3>
-
             <p>
                 This project compares travel times
                 based on different transportation
@@ -82,36 +74,27 @@
         </article>
 
         <article>
-            <aside>
-                <img src="images/portfolio-4.png" alt="Map App Photo"/>
-            </aside>
+            <img src="images/portfolio-4.png" alt="Map App Photo">
             <h3>Map of Favorite Spots</h3>
-
             <p>
                 This project uses mapping apis to plot
                 points for my favorite spots in the city
                 for a do-it-yourself walking tour.
             </p>
-
         </article>
 
         <article>
-            <aside>
-                <img src="images/portfolio-5.png" alt="Photo Gallery Photo"/>
-            </aside>
+            <img src="images/portfolio-5.png" alt="Photo Gallery Photo">
             <h3>Photo Gallery</h3>
             <p>
                 This project shows pictures from a
                 recent trip to the viewer and allows
                 them to easily navigate through photos.
             </p>
-
         </article>
 
         <article>
-            <aside>
-                <img src="images/portfolio-6.png" alt="Calculator Photo"/>
-            </aside>
+            <img src="images/portfolio-6.png" alt="Calculator Photo">
             <h3>Calculator</h3>
             <p>
                 Someone can enter in the numbers
@@ -119,17 +102,18 @@
                 button and get the result.
             </p>
         </article>
-    </section>
-    <section id="skills">
-        <article>
+
+        <article id="skills">
             <h3>Skills</h3>
+            <p>These are some of the skills I've managed to build up and acquire during my 6 year freelancing
+                experience: </p>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>JS</li>
+                <li>JavaScript</li>
             </ul>
         </article>
-    </section>
+    </div>
 </main>
 <footer>
     <section id="contact">
@@ -145,10 +129,10 @@
             </ul>
         </address>
     </section>
-    <hr />
+    <hr>
     <nav id="footer-navigation">
         <h4>Nejc Vukovic</h4>
-        <ul>
+        <menu>
             <li>
                 <a href="#home">Home</a>
             </li>
@@ -159,9 +143,12 @@
                 <a href="#contact">Contact</a>
             </li>
             <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
                 <a href="#top">Back to Top</a>
             </li>
-        </ul>
+        </menu>
     </nav>
 </footer>
 </body>
